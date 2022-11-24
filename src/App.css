@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.parentMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60vh;
+}
+
+.studentDetails{
+    color: #005fa8;
+}
+
+.table-header{
+    color: #0071C8;
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset !important ;
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+.profile{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvfMHm_ORYugsd1n-EIlmGc9b8n_dIKwf-PWaqhUEXcd99p50sGjHezhyTZekswkvqOUo&usqp=CAU');
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
